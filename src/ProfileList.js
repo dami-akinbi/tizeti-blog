@@ -1,4 +1,4 @@
-const ProfileList = ({ profiles, title, handleDelete }) => {
+const ProfileList = ({ profiles, title }) => {
 
     return (
         <div className="profile-list">
@@ -7,7 +7,6 @@ const ProfileList = ({ profiles, title, handleDelete }) => {
                 <div className="profile-preview" key={profile.email}>
                     <h2>{ profile.name }</h2>
                     <p>{ profile.title }, Tizeti Networks Limited</p>
-                    <button onClick={() => handleDelete(profile.email)}>Delete Profile</button>
                 </div>
             )) }
         </div>

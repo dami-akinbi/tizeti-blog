@@ -1,0 +1,11 @@
+{
+    "profiles": [
+        {"title": "CEO", "name": "Kendall Ananyi", "gender": "male", "email": "kendall@tizeti.com", "id": 1},
+        {"title": "COO", "name": "Ifeanyi Okonkwo", "gender": "male", "email": "ifeanyi.okonkwo@tizeti.com", "id": 2},
+        {"title": "Team Lead", "name": "Gideon Osuji", "gender": "male", "email": "gideon.osuji@tizeti.com", "id": 3},
+        {"title": "FSE", "name": "Oluwadamilola Akinbi", "gender": "male", "email": "oluwadamilola.akinbi@tizeti.com", "id": 4},
+        {"title": "FSE", "name": "Tochukwu Ibechem", "gender": "male", "email": "tochukwu.ibechem@tizeti.com", "id": 5},
+        {"title": "NOC", "name": "Emmanuel Olowogboye", "gender": "male", "email": "emmanuel.olowogboye@tizeti.com", "id": 6},
+        {"title": "NOC", "name": "Roqeebat Ozugha", "gender": "female", "email": "roqeebat.ozugha@tizeti.com", "id": 7}
+    ]
+}
