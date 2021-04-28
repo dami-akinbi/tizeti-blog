@@ -1,21 +1,13 @@
-import { useState, useEffect } from 'react';
 import ProfileList from './ProfileList';
+import useFetch from './useFetch';
 
 const Home = () => {
-    const [profiles, setProfiles] = useState(null);
-
-    useEffect(() => {
-        fetch('http://localhost:8000/profiles')
-            .then(res => {
-                return res.json();
-            })
-            .then(data => {
-                setProfiles(data);
-            });
-    }, []);
+    const { data: profiles, isPending, error } = useFetch('http://localhost:8000/profiles');
 
     return (
         <div className="home">
+            { error && <div>{ error }</div> }
+            { isPending && <div>Loading...</div> }
             { profiles && <ProfileList profiles={profiles} title="All Staff" /> }
             {/* <ProfileList profiles={profiles.filter(profile => profile.title === "FSE")} title="Field Service Personnel" /> */}
         </div>
