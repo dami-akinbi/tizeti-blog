@@ -1,4 +1,5 @@
 const Create = () => {
+    
     return (
         <div className="create">
             <h2>Add a New Profile</h2>

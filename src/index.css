@@ -48,3 +48,24 @@
   color: #42da00;
   margin-bottom: 8px;
 }
+.profile-preview a{
+  text-decoration: none;
+}
+
+/* profile details page */
+.profile-details h2 {
+  font-size: 20px;
+  color: #42da00;
+  margin-bottom: 10px;
+}
+.profile-details div {
+  margin: 20px 0;
+}
+/* .profile-details button {
+  background: #42da00;
+  color: #fafafa;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+} */
