@@ -61,11 +61,57 @@
 .profile-details div {
   margin: 20px 0;
 }
-/* .profile-details button {
+.profile-details button {
   background: #42da00;
   color: #fafafa;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
-} */
+}
+
+/* create new profile form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #42da00;
+  margin-bottom: 30px;
+}
+.create input, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #42da00;
+  color: #fafafa;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* not found page */
+.not-found {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.not-found h1 {
+  color: crimson;
+  padding: 8px;
+}
+.not-found a {
+  color: #42da00;
+}

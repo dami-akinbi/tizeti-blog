@@ -3,6 +3,7 @@ import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './Create';
 import ProfileDetails from './ProfileDetails';
+import NotFound from './NotFound';
 
 function App() {
   
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route path="/profiles/:id">
               <ProfileDetails />
+            </Route>
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>
