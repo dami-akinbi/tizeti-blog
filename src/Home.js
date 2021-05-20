@@ -8,7 +8,7 @@ const Home = () => {
         <div className="home">
             { error && <div>{ error }</div> }
             { isPending && <div>Loading...</div> }
-            { profiles && <ProfileList profiles={profiles} title="All Staff" /> }
+            { profiles && <ProfileList profiles={profiles} title="Staff profile" /> }
             {/* <ProfileList profiles={profiles.filter(profile => profile.title === "FSE")} title="Field Service Personnel" /> */}
         </div>
     );

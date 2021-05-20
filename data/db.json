@@ -1,102 +1,27 @@
 {
   "profiles": [
-    {
-      "title": "CEO",
-      "name": "Kendall Ananyi",
-      "gender": "male",
-      "email": "kendall@tizeti.com",
-      "id": 1
-    },
-    {
-      "title": "COO",
-      "name": "Ifeanyi Okonkwo",
-      "gender": "male",
-      "email": "ifeanyi.okonkwo@tizeti.com",
-      "id": 2
-    },
-    {
-      "title": "HR",
-      "name": "Idowu Aruwajoye",
-      "gender": "female",
-      "email": "idowu.aruwajoye@tizeti.com",
-      "id": 3
-    },
-    {
-      "title": "Manager",
-      "name": "Ijem Okolugbo",
-      "gender": "male",
-      "email": "ijem.okolugbo@tizeti.com",
-      "id": 4
-    },
-    {
-      "title": "Supervisor",
-      "name": "Muhammad Salaudeen",
-      "gender": "male",
-      "email": "muhammad.salaudeen@tizeti.com",
-      "id": 5
-    },
-    {
-      "title": "Team Lead",
-      "name": "Gideon Osuji",
-      "gender": "male",
-      "email": "gideon.osuji@tizeti.com",
-      "id": 6
-    },
-    {
-      "title": "FSE",
-      "name": "Oluwadamilola Akinbi",
-      "gender": "male",
-      "email": "oluwadamilola.akinbi@tizeti.com",
-      "id": 7
-    },
-    {
-      "title": "FSE",
-      "name": "Tochukwu Ibechem",
-      "gender": "male",
-      "email": "tochukwu.ibechem@tizeti.com",
-      "id": 8
-    },
-    {
-      "title": "NOC",
-      "name": "Emmanuel Olowogboye",
-      "gender": "male",
-      "email": "emmanuel.olowogboye@tizeti.com",
-      "id": 9
-    },
-    {
-      "title": "NOC",
-      "name": "Roqeebat Ozugha",
-      "gender": "female",
-      "email": "roqeebat.ozugha@tizeti.com",
-      "id": 10
-    },
-    {
-      "title": "R&D",
-      "name": "Damilola Akinbi",
-      "gender": "male",
-      "email": "damilola.akinbi@tizeti.com",
-      "id": 11
-    },
-    {
-      "title": "FSE",
-      "name": "Toluwalope Oyeniran",
-      "gender": "male",
-      "email": "toluwalope.oyeniran@tizeti.com",
-      "id": 12
-    },
-    {
-      "title": "FSE",
-      "name": "Oluwaseyi Ayelabowo",
-      "gender": "male",
-      "email": "oluwaseyi.ayelabowo@tizeti.com",
-      "id": 13
-    },
-    {
-      "title": "Customer Support",
-      "name": "Ryu Sanders",
-      "gender": "female",
-      "email": "ryu.sanders@tizeti.com",
-      "id": 14
-    }
+    { "title": "CEO", "name": "Kendall Ananyi", "gender": "male", "email": "kendall@tizeti.com", "id": 1 },
+    { "title": "COO", "name": "Ifeanyi Okonkwo", "gender": "male", "email": "ifeanyi.okonkwo@tizeti.com", "id": 2 },
+    { "title": "CTO", "name": "Opeyemi Ajiboye", "gender": "male", "email": "opeyemi.ajiboye@tizeti.com", "id": 3 },
+    { "title": "CFO", "name": "Patricia Aiyedun", "gender": "female", "email": "patricia.aiyedun@tizeti.com", "id": 4 },
+    { "title": "HR", "name": "Idowu Aruwajoye", "gender": "female", "email": "idowu.aruwajoye@tizeti.com", "id": 5 },
+    { "title": "Manager, FSE", "name": "Ijem Okolugbo", "gender": "male", "email": "ijem.okolugbo@tizeti.com", "id": 6 },
+    { "title": "Supervisor, FSE", "name": "Muhammad Salaudeen", "gender": "male", "email": "muhammad.salaudeen@tizeti.com", "id": 7 },
+    { "title": "Team Lead, FSE", "name": "Gideon Osuji", "gender": "male", "email": "gideon.osuji@tizeti.com", "id": 8 },
+    { "title": "FSE", "name": "Oluwadamilola Akinbi", "gender": "male", "email": "oluwadamilola.akinbi@tizeti.com", "id": 9 },
+    { "title": "FSE", "name": "Tochukwu Ibechem", "gender": "male", "email": "tochukwu.ibechem@tizeti.com", "id": 10 },
+    { "title": "FSE", "name": "Oluwaseyi Ayelabowo", "gender": "male", "email": "oluwaseyi.ayelabowo@tizeti.com", "id": 11 },
+    { "title": "NOC", "name": "Emmanuel Olowogboye", "gender": "male", "email": "emmanuel.olowogboye@tizeti.com", "id": 12 },
+    { "title": "NOC", "name": "Roqeebat Ozugha", "gender": "female", "email": "roqeebat.ozugha@tizeti.com", "id": 13 },
+    { "title": "Head, R&D", "name": "Chinwa Williams", "gender": "male", "email": "chinwa.williams@tizeti.com", "id": 14 },
+    { "title": "Head, R&D", "name": "Izi Ehimen", "gender": "female", "email": "ehimen.izi@tizeti.com", "id": 15 },
+    { "title": "R&D", "name": "Tina Oluwabukola", "gender": "female", "email": "tina.oluwabukola@tizeti.com", "id": 16 },
+    { "title": "R&D", "name": "Toyosi Azuh", "gender": "female", "email": "toyosi.azuh@tizeti.com", "id": 17 },
+    { "title": "R&D", "name": "Michael Elufioye", "gender": "male", "email": "michael.elufioye@tizeti.com", "id": 18 },
+    { "title": "R&D", "name": "Noel Obaseki", "gender": "male", "email": "noel.obaseki@tizeti.com", "id": 19 },
+    { "title": "R&D", "name": "Ezinne Ahumibe", "gender": "female", "email": "ezinne.ahumibe@tizeti.com", "id": 20 },
+    { "title": "R&D", "name": "Tolulope Ajia", "gender": "female", "email": "tolulope.ajia@tizeti.com", "id": 21 },
+    { "title": "R&D", "name": "Damilola Akinbi", "gender": "male", "email": "damilola.akinbi@tizeti.com", "id": 22 },
+    { "title": "Customer Support", "name": "Ryu Sanders", "gender": "female", "email": "ryu.sanders@tizeti.com", "id": 23 }
   ]
 }
